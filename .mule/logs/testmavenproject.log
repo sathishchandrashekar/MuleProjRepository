@@ -1,0 +1,93 @@
+2019-11-20 14:55:02,178 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'testmavenproject'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:55:02,239 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-11-20 14:55:02,267 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-11-20 14:55:02,465 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-11-20 14:55:02,465 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2019-11-20 14:55:02,483 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@463561c5: startup date [Wed Nov 20 14:55:02 IST 2019]; parent: org.mule.config.spring.MuleDomainContext@47874b25
+2019-11-20 14:55:04,356 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-20 14:55:05,620 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-11-20 14:55:06,071 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-tx-log\tx1.log and C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-tx-log\tx2.log
+2019-11-20 14:55:06,086 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-xa-tx-log\tx1.log and C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-xa-tx-log\tx2.log
+2019-11-20 14:55:06,267 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-11-20 14:55:06,275 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: testmavenprojectFlow
+2019-11-20 14:55:06,275 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@39832280
+2019-11-20 14:55:06,334 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: testmavenprojectFlow.stage1
+2019-11-20 14:55:06,514 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule\PrjectWorkSpace\GITTest\.mule\apps\testmavenproject\testmavenproject.xml'}]"
+2019-11-20 14:55:06,514 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule\PrjectWorkSpace\GITTest\.mule\apps\testmavenproject\testmavenproject.xml'}]"
+2019-11-20 14:55:12,600 [main] WARN  org.mule.config.spring.SpringRegistry - Spring registry already contains an object named 'gateway-message-source:http://0.0.0.0:8099/PO/test'. The previous object will be overwritten.
+2019-11-20 14:55:12,602 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'testmavenproject'                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:55:12,604 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-11-20 14:55:12,604 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-11-20 14:55:12,648 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:55:12,652 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-11-20 14:55:12,655 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: testmavenprojectFlow
+2019-11-20 14:55:12,656 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: testmavenprojectFlow.stage1
+2019-11-20 14:55:12,845 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: testmavenproject                                      *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-11-20 14:55:59,586 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'testmavenproject'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:55:59,630 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-11-20 14:55:59,657 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-11-20 14:55:59,799 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-11-20 14:55:59,799 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2019-11-20 14:55:59,821 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3468ee6e: startup date [Wed Nov 20 14:55:59 IST 2019]; parent: org.mule.config.spring.MuleDomainContext@47874b25
+2019-11-20 14:56:01,273 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-11-20 14:56:02,454 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-11-20 14:56:02,996 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-tx-log\tx1.log and C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-tx-log\tx2.log
+2019-11-20 14:56:03,002 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-xa-tx-log\tx1.log and C:\Mule\PrjectWorkSpace\GITTest\.mule\.\.mule\testmavenproject\queue-xa-tx-log\tx2.log
+2019-11-20 14:56:03,234 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-11-20 14:56:03,243 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: testmavenprojectFlow
+2019-11-20 14:56:03,247 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7f0f84d4
+2019-11-20 14:56:03,308 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: testmavenprojectFlow.stage1
+2019-11-20 14:56:03,502 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule\PrjectWorkSpace\GITTest\.mule\apps\testmavenproject\testmavenproject.xml'}]"
+2019-11-20 14:56:03,503 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule\PrjectWorkSpace\GITTest\.mule\apps\testmavenproject\testmavenproject.xml'}]"
+2019-11-20 14:56:09,591 [main] WARN  org.mule.config.spring.SpringRegistry - Spring registry already contains an object named 'gateway-message-source:http://0.0.0.0:8099/PO/test'. The previous object will be overwritten.
+2019-11-20 14:56:09,594 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'testmavenproject'                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:56:09,599 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-11-20 14:56:09,599 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-11-20 14:56:09,636 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-11-20 14:56:09,638 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-11-20 14:56:09,641 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: testmavenprojectFlow
+2019-11-20 14:56:09,642 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: testmavenprojectFlow.stage1
+2019-11-20 14:56:09,795 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: testmavenproject                                      *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-11-20 14:57:26,924 [[testdomain].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Inside the Test Proj

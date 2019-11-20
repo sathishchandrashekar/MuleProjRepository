@@ -1,0 +1,5 @@
+default_mule_runtime_selection=org.mule.tooling.server.3.8.4.ee
+eclipse.preferences.version=1
+endopoint.convert_inbound_to_outbound=PROMPT
+server_already_running_inform=PROMPT
+tooling_ui_preference_current_ui_plugin_version=6.6.1.201906072050
